@@ -10,3 +10,6 @@ Considering the time it's taken to make (and countlessly remake) this watchface 
 If you remember this watchface from the pebble store and like the small upgrades I made to it give this repo a star and share it with other zelda friends!
 
 Major props to the original designer on pebble (https://store-beta.rebble.io/app/52f2a517996e170cee000004), If pebble were still being made I would have had this watchface since roughly 2013/14
+
+# Preview Image
+![preview_image](https://github.com/nokel/ZeldaGalaxyWatchFace/raw/main/watch.png)
