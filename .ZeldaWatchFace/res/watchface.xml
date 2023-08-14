@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<watchface device_name="Gear S3, Gear Sport, Galaxy Watch, Galaxy Watch Active" height="360" name="watchface.xml" schema_version="1.5" screen_type="1" version="2.0.1" width="360">
+    <root height="360" type="normal" width="360" x="0" y="0">
+        <image height="85" id="Image green" name="green.png" width="84" x="138" y="60"/>
+        <image height="85" id="Image blue" name="blue.png" width="84" x="190" y="111"/>
+        <image height="39" id="Image cdown" name="cdown.png" width="39" x="244" y="82"/>
+        <image height="39" id="Image rightc" name="rightc.png" width="39" x="271" y="52"/>
+        <image height="39" id="Image leftc" name="leftc.png" width="39" x="215" y="52"/>
+        <image height="116" id="Image timespan_illustration_x2_toned" name="timespan_illustration_x2_toned.png" width="219" x="70" y="217"/>
+        <image height="13" id="last emptyheart" name="emptyheart.png" width="15" x="49" y="61">
+            <condition source="battery">
+                <section end="100" start="0"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 3quarterheart" name="3quarterheart.png" width="15" x="49" y="61">
+            <condition source="battery">
+                <section end="100" start="2"/>
+            </condition>
+        </image>
+        <image height="13" id="Image halfheart" name="halfheart.png" width="15" x="49" y="61">
+            <condition source="battery">
+                <section end="100" start="5"/>
+            </condition>
+        </image>
+        <image height="13" id="Image quarterheart" name="quarterheart.png" width="15" x="49" y="61">
+            <condition source="battery">
+                <section end="100" start="8"/>
+            </condition>
+        </image>
+        <image height="13" id="Image heartfull" name="heartfull.png" width="15" x="49" y="61">
+            <condition source="battery">
+                <section end="100" start="10"/>
+            </condition>
+        </image>
+        <image height="13" id="first emptyheart" name="emptyheart.png" width="15" x="65" y="61">
+            <condition source="battery">
+                <section end="100" start="0"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 1" name="3quarterheart.png" width="15" x="65" y="61">
+            <condition source="battery">
+                <section end="100" start="12"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 10" name="halfheart.png" width="15" x="65" y="61">
+            <condition source="battery">
+                <section end="100" start="15"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 19" name="quarterheart.png" width="15" x="65" y="61">
+            <condition source="battery">
+                <section end="100" start="18"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 28" name="heartfull.png" width="15" x="65" y="61">
+            <condition source="battery">
+                <section end="100" start="20"/>
+            </condition>
+        </image>
+        <image height="13" id="second emptyheart" name="emptyheart.png" width="15" x="81" y="61">
+            <condition source="battery">
+                <section end="100" start="0"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 2" name="3quarterheart.png" width="15" x="81" y="61">
+            <condition source="battery">
+                <section end="100" start="22"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 11" name="halfheart.png" width="15" x="81" y="61">
+            <condition source="battery">
+                <section end="100" start="25"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 20" name="quarterheart.png" width="15" x="81" y="61">
+            <condition source="battery">
+                <section end="100" start="28"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 29" name="heartfull.png" width="15" x="81" y="61">
+            <condition source="battery">
+                <section end="100" start="30"/>
+            </condition>
+        </image>
+        <image height="13" id="third emptyheart" name="emptyheart.png" width="15" x="98" y="61">
+            <condition source="battery">
+                <section end="100" start="0"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 3" name="3quarterheart.png" width="15" x="98" y="61">
+            <condition source="battery">
+                <section end="100" start="32"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 12" name="halfheart.png" width="15" x="98" y="61">
+            <condition source="battery">
+                <section end="100" start="35"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 21" name="quarterheart.png" width="15" x="98" y="61">
+            <condition source="battery">
+                <section end="100" start="38"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 30" name="heartfull.png" width="15" x="98" y="61">
+            <condition source="battery">
+                <section end="100" start="40"/>
+            </condition>
+        </image>
+        <image height="13" id="fourth emptyheart" name="emptyheart.png" width="15" x="115" y="61">
+            <condition source="battery">
+                <section end="100" start="0"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 4" name="3quarterheart.png" width="15" x="115" y="61">
+            <condition source="battery">
+                <section end="100" start="42"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 13" name="halfheart.png" width="15" x="115" y="61">
+            <condition source="battery">
+                <section end="100" start="45"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 22" name="quarterheart.png" width="15" x="115" y="61">
+            <condition source="battery">
+                <section end="100" start="48"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 31" name="heartfull.png" width="15" x="115" y="61">
+            <condition source="battery">
+                <section end="100" start="50"/>
+            </condition>
+        </image>
+        <image height="13" id="fifth emptyheart" name="emptyheart.png" width="15" x="49" y="76">
+            <condition source="battery">
+                <section end="100" start="0"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 5" name="3quarterheart.png" width="15" x="49" y="76">
+            <condition source="battery">
+                <section end="100" start="52"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 14" name="halfheart.png" width="15" x="49" y="76">
+            <condition source="battery">
+                <section end="100" start="55"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 23" name="quarterheart.png" width="15" x="49" y="76">
+            <condition source="battery">
+                <section end="100" start="58"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 32" name="heartfull.png" width="15" x="49" y="76">
+            <condition source="battery">
+                <section end="100" start="60"/>
+            </condition>
+        </image>
+        <image height="13" id="sixth emptyheart" name="emptyheart.png" width="15" x="65" y="76">
+            <condition source="battery">
+                <section end="100" start="0"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 6" name="3quarterheart.png" width="15" x="65" y="76">
+            <condition source="battery">
+                <section end="100" start="62"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 15" name="halfheart.png" width="15" x="65" y="76">
+            <condition source="battery">
+                <section end="100" start="65"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 24" name="quarterheart.png" width="15" x="65" y="76">
+            <condition source="battery">
+                <section end="100" start="68"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 33" name="heartfull.png" width="15" x="65" y="76">
+            <condition source="battery">
+                <section end="100" start="70"/>
+            </condition>
+        </image>
+        <image height="13" id="seventh emptyheart" name="emptyheart.png" width="15" x="81" y="76">
+            <condition source="battery">
+                <section end="100" start="0"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 7" name="3quarterheart.png" width="15" x="81" y="76">
+            <condition source="battery">
+                <section end="100" start="72"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 16" name="halfheart.png" width="15" x="82" y="76">
+            <condition source="battery">
+                <section end="100" start="75"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 25" name="quarterheart.png" width="15" x="81" y="76">
+            <condition source="battery">
+                <section end="100" start="78"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 34" name="heartfull.png" width="15" x="81" y="76">
+            <condition source="battery">
+                <section end="100" start="80"/>
+            </condition>
+        </image>
+        <image height="13" id="eighth emptyheart" name="emptyheart.png" width="15" x="98" y="76">
+            <condition source="battery">
+                <section end="100" start="0"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 8" name="3quarterheart.png" width="15" x="98" y="76">
+            <condition source="battery">
+                <section end="100" start="82"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 17" name="halfheart.png" width="15" x="98" y="76">
+            <condition source="battery">
+                <section end="100" start="85"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 26" name="quarterheart.png" width="15" x="98" y="76">
+            <condition source="battery">
+                <section end="100" start="88"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 35" name="heartfull.png" width="15" x="98" y="76">
+            <condition source="battery">
+                <section end="100" start="90"/>
+            </condition>
+        </image>
+        <image height="13" id="ninth emptyheart" name="emptyheart.png" width="15" x="115" y="76">
+            <condition source="battery">
+                <section end="91" start="0"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 9" name="3quarterheart.png" width="15" x="115" y="76">
+            <condition source="battery">
+                <section end="94" start="92"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 18" name="halfheart.png" width="15" x="115" y="76">
+            <condition source="battery">
+                <section end="97" start="95"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 27" name="quarterheart.png" width="15" x="115" y="76">
+            <condition source="battery">
+                <section end="99" start="98"/>
+            </condition>
+        </image>
+        <image height="13" id="Image 36" name="heartfull.png" width="15" x="115" y="76">
+            <condition source="battery">
+                <section end="100" start="100"/>
+            </condition>
+        </image>
+        <hand angle="90.0" end_angle="360.0" end_value="24.0" height="33" id="Hand sunmoon" name="sunmoon.png" pivot_x="109" pivot_y="16" real="true" source="hour0-23.minute" start_angle="0.0" start_value="0.0" width="216" x="71" y="312"/>
+        <image height="10" id="Image magic" name="magic.png" width="86" x="46" y="96"/>
+        <image height="20" id="Image OoT_Adult's_Wallet_Icon" name="OoT_Adult's_Wallet_Icon.png" width="16" x="43" y="107"/>
+        <text a="250" alignment="16384" b="255" bitmap_font="true" bitmap_font_name="bitmap_font_1692012646135_R1g5EY" custom_font="false" default_locale="en_US" font_name="Tizen" g="255" height="19" id="Text 1" locale="en_US" r="255" size="22" source="pedometer.step" style="0" text="Text" width="72" x="60" y="108">
+            <bitmap_font>
+                <character filepath="YIPJ7V.png" height="10" name="0" width="9"/>
+                <character filepath="V1x8o8.png" height="13" name="1" width="7"/>
+                <character filepath="u3NCL1.png" height="10" name="2" width="8"/>
+                <character filepath="pFMKUz.png" height="11" name="3" width="8"/>
+                <character filepath="2PgaRD.png" height="11" name="4" width="8"/>
+                <character filepath="FbrjAq.png" height="11" name="5" width="8"/>
+                <character filepath="jpS6jy.png" height="10" name="6" width="8"/>
+                <character filepath="nNb9JR.png" height="10" name="7" width="8"/>
+                <character filepath="gDAwGz.png" height="11" name="8" width="8"/>
+                <character filepath="w6X0FK.png" height="11" name="9" width="8"/>
+            </bitmap_font>
+        </text>
+        <digitalclock alignment="16777216" b="1" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="Triforce" g="206" height="53" id="Digitalclock 1" locale="en_US" r="233" size="50" style="0" text="h" width="53" x="155" y="76"/>
+        <digitalclock alignment="16777216" b="1" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="Triforce" g="206" height="70" id="Digitalclock 2" locale="en_US" r="233" size="50" style="0" text="mm" width="68" x="200" y="119"/>
+        <text alignment="16777216" b="88" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="Triforce" g="221" height="22" id="Text 2" locale="en_US" r="218" size="22" source="heartrate.recent" style="0" text="Text" width="32" x="219" y="60"/>
+        <image height="92" id="Image speed" name="speed.png" width="110" x="125" y="270"/>
+        <digitalclock alignment="16777216" b="1" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="Triforce" g="206" height="36" id="Digitalclock 3" locale="en_US" r="233" size="32" style="1" text="d/L" width="112" x="123" y="289"/>
+        <digitalclock alignment="16777216" b="1" bitmap_font="false" custom_font="true" default_locale="en_US" font_name="Triforce" g="206" height="38" id="Digitalclock 4" locale="en_US" r="233" size="28" style="0" text="eee MMM" width="116" x="122" y="322"/>
+        <hand end_angle="360.0" end_value="60.0" frequency="15" height="16" id="Hand sunsecond" name="sunsecond.png" pivot_x="8" pivot_y="78" real="true" source="second.millisecond" start_angle="0.0" start_value="0.0" width="16" x="171" y="250"/>
+        <text alignment="16777216" b="255" bitmap_font="true" bitmap_font_name="bitmap_font_1692015412519_nPjySQ" custom_font="false" default_locale="en_US" font_name="Tizen" g="255" height="39" id="Text 3" locale="en_US" r="255" size="22" source="moonphase.type" style="0" text="Text" width="62" x="146" y="9">
+            <bitmap_font>
+                <character filepath="5PWmQJ.png" height="32" name="0" width="32"/>
+                <character filepath="J5bArT.png" height="32" name="1" width="32"/>
+                <character filepath="hlYszq.png" height="32" name="2" width="32"/>
+                <character filepath="ozlPRh.png" height="32" name="3" width="32"/>
+                <character filepath="KbTE2z.png" height="32" name="4" width="32"/>
+                <character filepath="BIDF0s.png" height="32" name="5" width="32"/>
+                <character filepath="HzOb2n.png" height="32" name="6" width="32"/>
+                <character filepath="CwlQBy.png" height="32" name="7" width="32"/>
+            </bitmap_font>
+        </text>
+    </root>
+</watchface>
